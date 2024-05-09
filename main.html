@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- font awasom cdn -->
+    <link 
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <!-- Link Swiper's CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+     <h1>what people say about us</h1>
+    <div class="wrapper swipper mySwiper ">
+        <div class="swiper-wrapper testimonial-slider">
+             <!-- Slides  -->
+            
+                
+                <div class="testimonial swiper-slide">
+                    
+                  <p>"This product is amazing! It made my life so much easier."</p>
+                    <div class="profile">
+                        <span>- Person 1</span>
+                         <img src="images/person-1.jpg" alt="Person 1">
+                    </div>
+                    </div>
+                
+                <div class="testimonial swiper-slide">
+                    
+                  <p>"This product is amazing! It made my life so much easier."</p>
+                    <div class="profile">
+                        <span>- Person 1</span>
+                         <img src="images/person-2.jpg" alt="Person 1">
+                    </div>
+                </div>
+                <div class="testimonial swiper-slide">
+                    
+                  <p>"This product is amazing! It made my life so much easier."</p>
+                    <div class="profile">
+                        <span>- Person 1</span>
+                         <img src="images/person-3.jpg" alt="Person 1">
+                    </div>
+                </div>
+                <div class="testimonial swiper-slide">
+                    
+                  <p>"This product is amazing! It made my life so much easier."</p>
+                    <div class="profile">
+                        <span>- Person 1</span>
+                         <img src="images/person-2.jpg" alt="Person 1">
+                    </div>
+                </div>
+                <div class="testimonial swiper-slide">
+                    
+                  <p>"This product is amazing! It made my life so much easier."</p>
+                    <div class="profile">
+                        <span>- Person 1</span>
+                         <img src="images/person-2.jpg" alt="Person 1">
+                    </div>
+                </div>
+              </div>
+
+          <div class="swiper-pagination"> </div>
+
+    </div>  
+     <!-- If we need pagination -->
+  <!-- <div class="swiper-pagination"></div> -->
+
+  <!-- If we need navigation buttons
+  <div class="swiper-button-prev"></div>
+  <div class="swiper-button-next"></div> -->
+  <!-- <div class="swiper mySwiper">
+    <div class="swiper-wrapper">
+      <div class="swiper-slide">
+        <img src="https://swiperjs.com/demos/images/nature-1.jpg" />
+      </div>
+      <div class="swiper-slide">
+        <img src="https://swiperjs.com/demos/images/nature-2.jpg" />
+      </div>
+      <div class="swiper-slide">
+        <img src="https://swiperjs.com/demos/images/nature-3.jpg" />
+      </div>
+      <div class="swiper-slide">
+        <img src="https://swiperjs.com/demos/images/nature-4.jpg" />
+      </div>
+      <div class="swiper-slide">
+        <img src="https://swiperjs.com/demos/images/nature-5.jpg" />
+      </div>
+      <div class="swiper-slide">
+        <img src="https://swiperjs.com/demos/images/nature-6.jpg" />
+      </div>
+      <div class="swiper-slide">
+        <img src="https://swiperjs.com/demos/images/nature-7.jpg" />
+      </div>
+      <div class="swiper-slide">
+        <img src="https://swiperjs.com/demos/images/nature-8.jpg" />
+      </div>
+      <div class="swiper-slide">
+        <img src="https://swiperjs.com/demos/images/nature-9.jpg" />
+      </div>
+    </div>
+    <div class="swiper-pagination"></div>
+  </div> -->
+  
+    <script src="app.js"></script>
+    <!-- Swiper JS -->
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+  <script>
+    var swiper = new Swiper(".mySwiper", {
+      effect: "coverflow",
+      grabCursor: true,
+      centeredSlides: true,
+      slidesPerView: "auto",
+      coverflowEffect: {
+        rotate: 50,
+        stretch: 0,
+        depth: 100,
+        modifier: 1,
+        slideShadows: true,
+      },
+      pagination: {
+        el: ".swiper-pagination",
+      },
+    });
+  </script>
+
+
+
+</body>
+</html>
